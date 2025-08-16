@@ -7,14 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="CovarianceContravariance\" />
-    <Folder Include="Polymorphism\" />
-    <Folder Include="Inheritance\" />
-    <Folder Include="Utils\" />
-    <Folder Include="ExceptionHandling\" />
-    <Folder Include="Encapsulation\" />
-    <Folder Include="Abstraction\" />
-  </ItemGroup>
-
 </Project>
