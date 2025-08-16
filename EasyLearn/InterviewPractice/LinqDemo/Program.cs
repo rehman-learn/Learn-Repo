@@ -98,3 +98,62 @@ namespace LinqDemo
         }
     }
 }
+
+/*
+Q1 : What is Linq?
+A1 : LINQ (Language Integrated Query) is a feature in .NET that allows developers to write queries directly in C# or VB.NET to retrieve and manipulate data 
+     from various data sources like collections, databases, XML, etc. It provides a consistent way to query data using a syntax similar to SQL.
+
+Q2 : What are the main benefits of using Linq?
+A2 : The main benefits of using LINQ include:
+- Simplified syntax for querying data.
+- Strongly typed queries that provide compile-time checking.
+- Integration with C# language features, making it easier to read and write queries.
+- Ability to work with various data sources in a consistent manner.
+
+Q3 : What are the different types of Linq?
+A3 : The different types of LINQ include:
+        - LINQ to Objects: Queries against in-memory collections like arrays, lists, etc.
+        - LINQ to SQL: Queries against SQL databases using a strongly typed data model.
+        - LINQ to Entities: Queries against Entity Framework models.
+        - LINQ to XML: Queries against XML documents.
+
+Q4 : What is the difference between Linq and Sql?
+A4 : The main differences between LINQ and SQL are:
+    - LINQ is a .NET feature that allows querying data in a strongly typed manner using C# or VB.NET, 
+    - while SQL is a language specifically designed for querying relational databases.
+
+Q5 : What is the difference between Linq and Lambda?
+A5 : LINQ is a query syntax that can be used with various data sources, while Lambda expressions are a way to define inline functions that can be used within LINQ queries. 
+     Lambda expressions provide a concise way to write functions and are often used in LINQ methods like `Where`, `Select`, etc.
+
+Q6 : What is the difference between Linq and Linq to Sql?
+A6 : LINQ is a general querying framework in .NET, while LINQ to SQL is a specific implementation of LINQ that allows querying SQL databases using a strongly typed data model. 
+     LINQ to SQL translates LINQ queries into SQL queries that can be executed against a database.
+
+Q7 : What is the difference between Linq and Entity Framework?
+A7 : - LINQ is a querying framework that can be used with various data sources, while Entity Framework (EF) is an Object-Relational Mapping (ORM) framework that provides 
+       a way to interact with databases using .NET objects. 
+
+     - Entity Framework uses LINQ to query data from the database, but it also provides additional features like change tracking, lazy loading, and migrations.
+
+Q8 : What is the difference between Linq and Dapper?
+A8 : LINQ is a querying framework that allows developers to write queries in C# or VB.NET, while Dapper is a micro ORM that provides a way to map database results to .NET objects. 
+     Dapper is designed for performance and simplicity, allowing developers to execute SQL queries and map results without the overhead of a full ORM like Entity Framework.
+
+Q9 : What is the difference between Linq and Ado.Net?
+A9 : LINQ is a querying framework that allows developers to write queries in C# or VB.NET, while ADO.NET is a set of classes for accessing data from databases. 
+     ADO.NET provides low-level access to databases using SQL commands and connections, while LINQ provides a higher-level, strongly typed way to query data using C# syntax. 
+     LINQ can be used with ADO.NET to simplify data access and manipulation.
+
+Q10 : What is the difference between Linq and SqlCommand?
+A10 : 
+      - LINQ is a querying framework that allows developers to write queries in C# or VB.NET, while SqlCommand is a class in ADO.NET used to execute SQL commands 
+        against a SQL Server database. 
+     
+      - LINQ provides a strongly typed, object-oriented way to query data, while SqlCommand requires writing raw SQL queries. LINQ queries are translated into SQL by the .NET runtime, 
+        while SqlCommand executes the SQL directly against the database.
+
+
+
+ */
