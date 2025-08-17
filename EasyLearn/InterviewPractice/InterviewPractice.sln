@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo", "LinqDemo\LinqDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitDemo", "AsyncAwaitDemo\AsyncAwaitDemo.csproj", "{B968F086-B156-4EF3-A64D-1753B816A105}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionDemo", "DependencyInjectionDemo\DependencyInjectionDemo.csproj", "{8F8B7C70-1295-40FF-A95D-8A9300A3A065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDemo", "MiddlewareDemo\MiddlewareDemo.csproj", "{DC3B4148-74D4-4FF0-9EAE-0630D4E8A684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B968F086-B156-4EF3-A64D-1753B816A105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B968F086-B156-4EF3-A64D-1753B816A105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B968F086-B156-4EF3-A64D-1753B816A105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8B7C70-1295-40FF-A95D-8A9300A3A065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8B7C70-1295-40FF-A95D-8A9300A3A065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8B7C70-1295-40FF-A95D-8A9300A3A065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8B7C70-1295-40FF-A95D-8A9300A3A065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3B4148-74D4-4FF0-9EAE-0630D4E8A684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3B4148-74D4-4FF0-9EAE-0630D4E8A684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3B4148-74D4-4FF0-9EAE-0630D4E8A684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3B4148-74D4-4FF0-9EAE-0630D4E8A684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
