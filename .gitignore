@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/EasyLearn/InterviewPractice/TaskManagementDemo/Migrations
+/EasyLearn/InterviewPractice/TaskManagementDemo/appsettings.json
+/EasyLearn/InterviewPractice/TaskManagementDemo/appsettings.Development.json
